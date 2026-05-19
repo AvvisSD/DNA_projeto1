@@ -14,7 +14,6 @@ class Graph():
         return self.matrix[i][j]>0
 
     def adj(self,i):
-        #ou return[d for d in range(self.nnodes()) if self.adjQ(i,d)]
         r=[]
         for j in range(len(self.matrix)):
             if self.matrix[i][j]>0:
